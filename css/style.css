@@ -1,3 +1,48 @@
+/*
+tres tipos de bordes: solid, dotted, double 
+*/
+
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Playwrite NZ Guides", cursive;
+  background-color: darkgrey;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  font-size: 10px;
+  color: rgb(245, 2, 51);
+}
+
+p {
+  color: #a52a2a;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li {
+  color: rgba(245, 2, 51, 0.9);
+  border: solid blue 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div > img {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.caja_imagen {
+  border: solid green 5px;
 }

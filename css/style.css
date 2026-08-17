@@ -1,6 +1,6 @@
 /*
 tres tipos de bordes: solid, dotted, double 
-*/
+
 
 * {
   margin: 0;
@@ -45,4 +45,72 @@ div > img {
 
 .caja_imagen {
   border: solid green 5px;
+}
+*/
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("../fonts/VT323-Regular.ttf");
+}
+
+body {
+  font-family: "VT323", monospace;
+}
+
+header {
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+}
+
+header div img {
+  display: block;
+}
+
+header nav {
+}
+
+header nav ul {
+  border: solid black 2px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+header nav ul li {
+  border: solid green 2px;
+  text-align: center;
+  /* margin-top: 20px;
+  margin-bottom: 20px;*/
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+/*redes sociales*/
+.fa-facebook {
+  color: #1877f2;
+  font-size: 30px;
+}
+
+.fa-instagram {
+  color: #c13584;
+  font-size: 30px;
+}
+/*agregar tiktok, agregar spotify, agregar pinterest, agregar un icono de correo, agregar linkedin*/
+.fa-tiktok {
+  font-size: 30px;
+}
+
+.fa-pinterest {
+  color: #e60023;
+  font-size: 30px;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+  font-size: 30px;
 }
